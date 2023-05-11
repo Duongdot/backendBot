@@ -8,6 +8,7 @@ let initAPIRoutes = (app) => {
     "/enrollment-application",
     userController.handleEnrollmentApplication
   );
+
   return app.use("/api/v1/", router);
 };
 
